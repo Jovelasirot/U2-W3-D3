@@ -20,7 +20,7 @@ fetch("https://striveschool-api.herokuapp.com/books?", {})
       newCol.classList.add("col");
       newCol.innerHTML = `
       <div class="card" >
-      <img src="${booksArray[i].img}" class="card-img-top" alt="book-image"  style="height: 550px">
+      <img src="${booksArray[i].img}" class="card-img-top" alt="book-image"  style="height: 450px">
       <div class="card-body">
         <h5 class="card-title" style="height: 90px">${booksArray[i].title}</h5>
         <p class="card-text text-end">
